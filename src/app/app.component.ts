@@ -9,13 +9,21 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   title = 'Test of Service Worker';
   persons: { name: string }[];
+  companies: { name: string }[];
 
   constructor(private http: HttpClient) { }
 
-  load() {
+  loadPersons() {
     this.http.get<any>("https://localhost:5001/api/persons")
       .subscribe(persons => {
         this.persons = persons;
+      });
+  }
+
+  loadCompanies() {
+    this.http.get<any>("https://localhost:5001/api/companies")
+      .subscribe(companies => {
+        this.companies = companies;
       });
   }
 }
