@@ -28,12 +28,11 @@
     {
       "name": "api",
       "urls": [
-        "localhost:5001/api/persons",
-        "localhost:5001/api/companies"
+        "https://localhost:5001/api/persons"
       ],
       "cacheConfig": {
         "maxSize": 100,
-        "maxAge": "5m"
+        "maxAge": "1m"
       }
     }
   ] 

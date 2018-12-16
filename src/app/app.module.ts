@@ -19,3 +19,18 @@ import { ServiceWorkerModule } from '@angular/service-worker';
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+// ,
+//   "dataGroups": [
+//     {
+//       "name": "api",
+//       "urls": [
+//         "localhost:5001/api/persons",
+//         "localhost:5001/api/companies"
+//       ],
+//       "cacheConfig": {
+//         "maxSize": 100,
+//         "maxAge": "5m"
+//       }
+//     }
+//   ]
