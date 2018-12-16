@@ -27,12 +27,10 @@
   "dataGroups": [
     {
       "name": "api",
-      "urls": [
-        "https://localhost:5001/api/persons"
-      ],
+      "urls": [ "/api/**" ],
       "cacheConfig": {
         "maxSize": 100,
-        "maxAge": "1m"
+        "maxAge": "0u"
       }
     }
   ] 

@@ -14,14 +14,14 @@ export class AppComponent {
   constructor(private http: HttpClient) { }
 
   loadPersons() {
-    this.http.get<any>("https://localhost:5001/api/persons")
+    this.http.get<any>("/api/persons")
       .subscribe(persons => {
         this.persons = persons;
       });
   }
 
   loadCompanies() {
-    this.http.get<any>("https://localhost:5001/api/companies")
+    this.http.get<any>("/api/companies")
       .subscribe(companies => {
         this.companies = companies;
       });
