@@ -1,0 +1,13 @@
+<h2>Here are some links to help you start: </h2>
+<button type="button" (click)="loadPersons()">Load persons</button>
+<button type="button" (click)="loadCompanies()">Load companies</button>
+<ul>
+  <li *ngFor="let person of persons">
+    {{person.name}}
+  </li>
+</ul>
+<ul>
+  <li *ngFor="let company of companies">
+    {{company.name}}
+  </li>
+</ul>

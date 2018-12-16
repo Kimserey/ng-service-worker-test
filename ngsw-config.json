@@ -23,15 +23,5 @@
         ]
       }
     }
-  ],
-  "dataGroups": [
-    {
-      "name": "api",
-      "urls": [ "/api/**" ],
-      "cacheConfig": {
-        "maxSize": 100,
-        "maxAge": "0u"
-      }
-    }
-  ] 
+  ]
 }
