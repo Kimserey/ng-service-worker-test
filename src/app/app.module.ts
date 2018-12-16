@@ -36,15 +36,3 @@ const routes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-
-// ,
-//   "dataGroups": [
-//     {
-//       "name": "api",
-//       "urls": [ "/api/**" ],
-//       "cacheConfig": {
-//         "maxSize": 100,
-//         "maxAge": "1m"
-//       }
-//     }
-//   ] 
